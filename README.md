@@ -38,7 +38,7 @@ Create a basic webpage.
 7. Use the float property to wrap text around an image
 8. JS file
 	* add a JS file named **main.js**
-9. Add a button to your webpage that swaps out an image when you click it (hint: [EventTarget.addEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener))
+9. Add a button to your webpage that swaps out an image when you click it (hint: `[EventTarget.addEventListener()`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener))
 10. Deploy your site to GitHub
 
 ## Hey, Mikey, I Think He Likes It Mode
