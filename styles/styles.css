@@ -5,14 +5,20 @@ body {
     font-family: 'london-olympics','Comic Sans MS';
 }
 
+.new-pic {
+    background-image: url("https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/9817/versions/1/screenshot.gif");
+}
+
 h1 {
     font-size: 6rem;
 }
 
 img {
-    position: absolute;
+    float: right;
+}
+
+p strong {
     float: left;
-    right: 300px;
 }
 
 div {
@@ -40,6 +46,18 @@ div > .second {
     border-style: dashed;
 }
 
+button {
+    height: 30px;
+    width: 1000px;
+    position: fixed;
+    top: 100px;
+    right: 20px;
+}
+
+button:hover {
+    background: orange;
+}
+
 div:hover {
     font-size: 14rem;
     margin: 10px;
@@ -60,5 +78,5 @@ div:hover {
 
 @font-face {
     font-family: 'london-olympics';
-    src: url("/files/londonolympics2012.TTF") format("truetype");
+    src: url("../files/londonolympics2012.TTF") format("truetype");
 }
