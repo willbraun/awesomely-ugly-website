@@ -16,6 +16,16 @@ body {
     border: 10px solid rgb(82, 82, 82);
 }
 
+.column-2 {
+    padding-top: 200px;
+    padding-left: 30px;
+}
+
+table * {
+    border: 1px solid black;
+    padding: 4px;
+}
+
 .new-pic {
     background-image: url("https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/9817/versions/1/screenshot.gif");
 }
