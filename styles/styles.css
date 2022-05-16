@@ -5,15 +5,14 @@ body {
     font-family: 'london-olympics','Comic Sans MS';
 }
 
-.flex {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 50px;
+.outer {
+    display: table-cell;
 }
 
 .column-1, .column-2 {
+    display: table-cell;
     background-color: rgba(255, 255, 255, 0.3);
-    border: 10px solid rgb(82, 82, 82);
+    border: 5px solid rgb(82, 82, 82);
 }
 
 .column-2 {
