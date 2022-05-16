@@ -5,6 +5,10 @@ body {
     font-family: 'london-olympics','Comic Sans MS';
 }
 
+h1 {
+    font-size: 6rem;
+}
+
 img {
     position: absolute;
     float: left;
