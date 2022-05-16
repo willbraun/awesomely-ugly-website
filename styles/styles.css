@@ -1,9 +1,14 @@
 body {
     background-image: url("https://content.api.news/v3/images/bin/24d7e30404162cfff83653fa0afef28c");
+    margin: auto;
+    color: rgb(195, 0, 169);
+    font-family: 'london-olympics','Comic Sans MS';
 }
 
-img strong{
+img {
+    position: absolute;
     float: left;
+    right: 300px;
 }
 
 div {
@@ -15,11 +20,27 @@ div {
 }
 
 .do-stuff {
-    position: absolule;
-    right: 10%;
-    width: 500px;
+    transform: translateX(80px);
+    width: 1200px;
     animation: stuff 15s;
     animation-iteration-count: infinite;
+    cursor: zoom-out;
+    border: 10px dotted rgb(234, 234, 96);
+}
+
+.platypi {
+    cursor: progress;
+}
+
+div > .second {
+    border-style: dashed;
+}
+
+div:hover {
+    font-size: 14rem;
+    margin: 10px;
+    border-color: red;
+    color: green;
 }
 
 @keyframes stuff {
@@ -31,4 +52,9 @@ div {
         transform: scale(2);
         transform: rotate3d(1, 0, 2, 0deg);
     }
+}
+
+@font-face {
+    font-family: 'london-olympics';
+    src: url("/files/londonolympics2012.TTF") format("truetype");
 }
